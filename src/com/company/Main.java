@@ -13,7 +13,7 @@ public class Main {
         for (int i=0; i<10; i++) {
             stringlist.add(reader.readLine());
         }
-        for (int i=0; i<stringlist.size(); i++) {
+        for (int i=0; i<(stringlist.size()-1); i++) {
             if (stringlist.get(i).length() > stringlist.get(i+1).length()) {
                 System.out.println(i+1); break;
             }
